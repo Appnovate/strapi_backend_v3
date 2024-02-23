@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pledge-forms",
+      "handler": "pledge-form.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pledge-forms/count",
+      "handler": "pledge-form.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pledge-forms/:id",
+      "handler": "pledge-form.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pledge-forms",
+      "handler": "pledge-form.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pledge-forms/:id",
+      "handler": "pledge-form.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pledge-forms/:id",
+      "handler": "pledge-form.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
